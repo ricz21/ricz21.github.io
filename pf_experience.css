@@ -1,0 +1,26 @@
+
+div.jobs img, div.coding img
+{
+    float: left;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+}
+
+div.jobs ul, div.coding ul
+{
+    padding: 20px 20px 50px;
+}
+
+.jobs p, .coding p
+{
+    padding: 20px;
+    text-indent: 10pt;
+    font-size: 20pt;
+}
+
+p.sub
+{
+    font-size: 10pt;
+    margin-left: 30px;
+}

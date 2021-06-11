@@ -1,0 +1,105 @@
+div header#home img
+{
+    filter: grayscale();
+}
+
+div header#home img:hover
+{
+    filter: grayscale(0);
+    transition: 1s;
+}
+
+h1.name
+{
+    font-size: 100px;
+    
+    transition: 1s;
+}
+
+h1.name:hover
+{
+    text-shadow: 0 0 50px #FF0000, 0 0 50px #0000FF;
+}
+
+header#home p
+{
+    transition: 1s;
+}
+
+header#home p:hover
+{
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.slide 
+{
+    display: none;
+}
+.slide img 
+{
+    width: 50%;
+    height: 50%;
+}
+
+.slide2 
+{
+    display: none;
+}
+.slide2 img 
+{
+    width: 50%;
+    height: 50%;
+}
+
+.wrapper
+{
+    width: 100%;
+    display: inline-flex;
+}
+
+/* Slideshow container */
+.slideshow-container 
+{
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding-left: 100px;
+}
+
+.slideshow-container2
+{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+}
+
+/* Fading animation */
+.fade 
+{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade 
+{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade 
+{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
